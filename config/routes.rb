@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :usuarios
-  root 'hello#index'
-  #match 'ola' => 'hello#index', via: 'get'
+
+  match 'ola' => 'hello#index', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
